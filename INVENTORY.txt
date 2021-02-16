@@ -1,3 +1,13 @@
 README.md
 INVENTORY.txt
 LICENSE.txt
+m87_2017_mwl_spectrum.csv
+m87_2017_vhe.csv
+m87_2017_swiftxrt.csv
+m87_2017_hst.csv
+m87_2017_swiftuvot.csv
+m87_2017_radio.csv
+TBD m87_2017_swiftxrt_data.zip
+TBD: m87_2017_chandra_nustar_data.zip
+TBD: m87_2017_xray_posteriors.fits.gz
+TBD: observations_and_data_description.txt

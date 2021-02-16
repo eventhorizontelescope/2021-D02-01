@@ -21,7 +21,10 @@ Our 2017 observations capture M87 in a historically low state, both for its core
 - fluxes from Swift-XRT observations (part of Table A6): "`m87_2017_swiftxrt.csv`"
 - flux densities from HST observations (Table A5): "`m87_2017_hst.csv`"
 - flux densities from Swift-UVOT observations (Tables A3 and A4): "`m87_2017_swiftuvot.csv`"
-- flux densities from radio obserevations (Table A1): "`m87_2017_radio.csv`"
+- flux densities from radio observations (Table A1): "`m87_2017_radio.csv`"
+- spectral and response files for modeling Swift-XRT data: "`m87_2017_swiftxrt_data.zip`" (file size: 25 MB)
+- spectral and response files for modeling Chandra and NuSTAR data: "`m87_2017_chandra_nustar_data.zip`" (file size: ? GB)
+- sampled posterior distributions of X-ray spectral model based on Chandra and NuSTAR data: "`m87_2017_xray_posteriors.fits.gz`" (file size: 6.8 GB)
 - description of observations and data processing: "`observations_and_data_description.txt`"
 
 **References:**
