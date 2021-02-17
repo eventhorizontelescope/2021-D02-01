@@ -50,22 +50,22 @@ M87 is included in the long-term monitoring program at the SMA. Data were primar
 
 **Event Horizon Telescope (EHT)**
 
-Observations of M87 with the EHT and the data processing procedures are described in detail in the first set of M87 papers by the EHT Collaboration et al. (2019). For the MWL spectrum we make use of the estimated compact flux within a region of 60x60 micro-arcseconds (size chosen to match GMVA images). This includes all EHT-detected flux, with 30-50% estimated to be from the 43-arcsecond ring, while the rest is outside. The details of this calculation are given in Appendix B of Paper IV by the EHT Collaboration et al. (2019).
+Observations of M87 with the EHT and the data processing procedures are described in detail in the first set of M87 papers by the EHT Collaboration et al. (2019). For the MWL spectrum we make use of the estimated compact flux within a region of 60x60 microarcseconds squared (size chosen to match GMVA images). This includes all EHT-detected flux, with 30-50% estimated to be from the 43-microarcsecond ring, while the rest is outside. The details of this calculation are given in Appendix B of Paper IV by the EHT Collaboration et al. (2019).
 
 
 **Hubble Space Telescope (HST)**
 
-
+M87 was observed with the HST on 2017 April 7, 12, and 17 with the WFC3 camera in two wide bands, F275W and F606W. We used fully calibrated and dither combined images for photometry of both the core and the knot HST-1 as described in detail in Sec. 2.2.2. The resulting flux densities were corrected for the extinction according to the procedure outlined in Sec. 2.2.1. They are listed for each epoch and filter in the file `m87_2017_hst.csv`. For the MWL spectrum we used core flux densities averaged over all three epochs in each filter, and added in quadrature uncertainties from both flux density measurements and from different iterations of image decomposition.
 
 
 **Swift-UVOT**
 
-
+The Neil Gehrels Swift Observatory (Swift hereafter) observed M87 on numerous occasions at the time of the 2017 EHT campaign. We collected observations with the UV/Optical Telescope (UVOT) taken in three optical (v, b, u) and three UV bands (uvw1, uvm2, uvw2) between 2017 March 22 and April 20. We processed the data and performed photometry using standard procedures described in Sec. 2.2.1. In the Paper we also describe a method to estimate and subtract the contribution from the host galaxy and the outer jet. The file `m87_2017_swiftuvot.csv` contains flux densities of the core region of M87 corrected for the host galaxy contamination and extinction. We assume the extinction curve (R_V=3.1) and the extinction value, E_(B-V)=0.022, to correct for extinction values in all bands. The uncertainty in flux densities is dominated by that of the host galaxy de-composition, which is added in quadrature to the photometric uncertainty of each measurement. For the MWL spectrum we make use of values averaged over all observations taken during the campaign for each filter.
 
 
 **Swift-XRT** 
 
-M87 was observed about two dozen times using Swift-XRT from 2017 March 27 to April 20, with 12 observations individually listed in the file `m87_2017_swiftxrt.csv` yielding useful data. For extraction of the source spectra we used a circular source region with a diameter of 15 pixels; for the background extraction we used an annular region surrounding the source. Spectral model for the complex source was determined from modeling of Chandra and NuSTAR spectra taken during the same period, as described in Sec. 2.3.3. Further details regarding Swift-XRT data analysis are given in Sec. 2.3.4.
+M87 was observed about two dozen times using the X-ray Telescope (XRT) onboard Swift from 2017 March 27 to April 20, with 12 observations individually listed in the file `m87_2017_swiftxrt.csv` yielding useful data. For extraction of the source spectra we used a circular source region with a diameter of 15 pixels; for the background extraction we used an annular region surrounding the source. Spectral model for the complex source was determined from modeling of Chandra and NuSTAR spectra taken during the same period, as described in Sec. 2.3.3. Further details regarding Swift-XRT data analysis are given in Sec. 2.3.4.
 
 The total flux provided in the file `m87_2017_swiftxrt.csv` represents the unabsorbed flux derived from the Swift-XRT spectral fits, while the net flux corresponds to the unabsorbed flux from core, HST-1, and the outer jet only (in both cases refering to the 2–10 keV band). Because Swift-XRT does not isolate the core emission, for the MWL spectrum in the file `m87_2017_mwl_spectrum.csv` we treat flux averaged over 3 observations taken during EHT observations as an upper limit for the core flux.
 
