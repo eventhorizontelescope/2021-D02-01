@@ -2,9 +2,10 @@
 # DESCRIPTION: Flux densities for M87 (core and jet knot HST-1) around the EHT campaign in April 2017
 #  based on Hubble Space Telesope (WFC3) observations. For details of the data processing and analysis
 #  methods, please see "observations_and_data_description.txt" in this data repository and the associated
-#  publication: Algaba et al. (2021), ApJL, x, y.
+#  publication: The EHT MWL Science Working Group et al. (2021; ApJL, 911, L11).
 #
-# COLUMNS: time (MJD), effective wavelength (A), core flux density & uncertainty (mJy), HST-1 flux density & uncertainty (mJy)
+# COLUMNS: time (MJD), effective wavelength (A), core flux density (mJy), core flux density uncertainty (mJy),
+#  HST-1 flux density (mJy), HST-1 flux density uncertainty (mJy)
 # 
 57850.69,2714,0.159,0.015,0.022,0.003
 57850.71,5779,0.450,0.017,0.036,0.003

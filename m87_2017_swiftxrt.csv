@@ -1,11 +1,13 @@
 # 
 # DESCRIPTION: Fluxes in the 2-10 keV band for M87 around the EHT campaign in April 2017 based on
-#  observations with Neil Gehrels Swift Observatory X-ray Telescope (Swift-XRT). For details of the
-#  data processing and analysis methods, please see "observations_and_data_description.txt" in this
-#  data repository and the associated publication: Algaba et al. (2021), ApJL, x, y.
+#  observations with Neil Gehrels Swift Observatory X-ray Telescope (Swift-XRT). For details of the data
+#  processing and analysis methods, please see "observations_and_data_description.txt" in this online data
+#  repository and the associated publication: The EHT MWL Science Working Group et al. (2021; ApJL, 911, L11).
 #
-# COLUMNS: observation ID, time (MJD), exposure (ks), total flux, lower & upper uncertainty,
-#  net flux, lower and upper uncertainty (flux unit: 10^-12 erg s^-1 cm^-2)
+# COLUMNS: observation ID, start time (MJD), exposure (ks), total flux (10^-12 erg s^-1 cm^-2),
+#  total flux lower uncertainty (10^-12 erg s^-1 cm^-2), total flux upper uncertainty (10^-12 erg s^-1 cm^-2),
+#  net flux (10^-12 erg s^-1 cm^-2), net flux lower uncertainty (10^-12 erg s^-1 cm^-2), net flux upper
+#  uncertainty (10^-12 erg s^-1 cm^-2)
 # 
 00031105027,57835.2729,1.13,8.26,0.61,0.84,3.1,0.23,0.31
 00031105028,57836.0674,0.83,7.98,0.87,0.78,4.21,0.46,0.41

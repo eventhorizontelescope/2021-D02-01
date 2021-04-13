@@ -1,116 +1,117 @@
-# Broadband Multi-wavelength Data of M87 During the 2017 Event Horizon Telescope Campaign: Description of Observations and Data Processing
+# Broadband Multi-wavelength Observations of M87 During the 2017 Event Horizon Telescope Campaign: Description of Observations and Data Processing
 
-This document provides a brief description of the multi-wavelength (MWL) dataset presented in Algaba et al. (2021; "Paper" hereafter) and released via this repository. Only basic information regarding the data contained in this repository is provided in this document; for details please refer to the references sections of the Paper. In the text below, "MWL spectrum" refers to the file `m87_2017_mwl_spectrum.csv`.
+This document provides a brief description of the multi-wavelength (MWL) dataset presented in The EHT MWL Science Working Group et al. (2021, ApJL, 911, L11; "Paper" hereafter) and released via this repository. Only basic information regarding the data contained in this repository is provided in this document; for details please refer to the references sections of the Paper. In the text below, "MWL spectrum" refers to the file "m87_2017_mwl_spectrum.csv". Unless explicitly stated otherwise, all uncertainties are given at the significance level of 1 sigma.
 
 
-**European VLBI Network (EVN)** 
+** European VLBI Network (EVN) ** 
 
 M87 was observed with the EVN at 1.7 GHz on 2017 May 9. The data were processed and reduced based on the standard EVN data calibration procedures (see Sec. 2.1.1 in the Paper). Here we provide the peak brightness of the radio core (in Jy/beam) when convolved with circular Gaussian beam with FWHM size of 5.0 mas. We also provide a total flux density (core plus extended jet) that was measured within the EVN field-of-view. The uncertainties in flux measurements are assumed to be 10% based on the typical EVN calibration accuracy.
 
 
-**High Sensitivity Array (HSA)** 
+** High Sensitivity Array (HSA) ** 
 
 M87 was observed with the HSA at 8.4, 15, and 24 GHz on 2017 May 15, 16 and 20, respectively. The data were processed and reduced based on the standard HSA data calibration procedures (see Sec. 2.1.2). For each frequency image, here we provide the peak brightness of the radio core (in Jy/beam) when convolved with circular Gaussian beams with FWHM sizes of 1.5 mas, 1.0 mas, and 1.0 mas at 8.4 GHz, 15 GHz and 24 GHz, respectively. In addition, at each frequency we also provide a total flux density (core plus extended jet) that was measured within the HSA field of view. The errors in flux measurements are assumed to be 10% based on the typical HSA calibration accuracy.
 
 
-**VLBI Exploration of Radio Astrometry (VERA)**
+** VLBI Exploration of Radio Astrometry (VERA) **
 
-The core of M87 was frequently monitored over the entire year of 2017 at 22 GHz with VERA, as a part of a regular monitoring program. A total of 17 epochs were obtained in 2017 and listed in the file `m87_2017_radio.csv`. The data were analyzed in the standard VERA data reduction procedure (see Sec. 2.1.3). For the flux density included in the MWL spectrum we used the single-epoch peak flux closest in time to EHT observations, 1 mas circular beam, and uncertainty estimated to be roughly 10%.
-
-
-**Korean VLBI Network (KVN)**
-
-The KVN regularly observes M87 at frequencies of 22, 43, 86, and 129 GHz simultaneously. We extract the core flux densities at the four frequencies and obtain light curves spanning observing periods between 2017 March and December at seven epochs listed in the file `m87_2017_radio.csv`. Typical flux density uncertainties at 22-86 GHz are approximately 10%, while at 129 GHz they are estimated to be about 30%. More details are given in Sec. 2.1.5.
+The core of M87 was frequently monitored over the entire year of 2017 at 22 GHz with VERA, as a part of a regular monitoring program. A total of 17 epochs were obtained in 2017 and listed in the file "m87_2017_radio.csv". The data were analyzed in the standard VERA data reduction procedure (see Sec. 2.1.3). For the flux density included in the MWL spectrum we used the single-epoch peak flux closest in time to EHT observations, 1 mas circular beam, and uncertainty estimated to be roughly 10%.
 
 
-**KVN and VERA (KaVA) & East Asian VLBI Network (EAVN)**
+** Korean VLBI Network (KVN) **
 
-A joint network of the KVN and VERA has regularly been monitoring M87. In 2017, the network was expanded to the EAVN, which densely monitored M87 between 2017 March and May. In the file `m87_2017_radio.csv` we list a total of 8 KaVA and 14 EAVN observations. The data were calibrated in the standard manner of VLBI data reduction procedures. See Sec. 2.1.4 for more details. For the flux density included in the MWL spectrum we used the peak flux from a single EAVN observation closest in time to EHT observations, 1 mas circular beam, and uncertainty estimated to be roughly 10%.
-
-
-**Very Long Baseline Array (VLBA)**
-
-M87 was observed with the VLBA at central frequencies of 24 and 43 GHz on 2017 May 5. Details of the data processing procedure are given in Sec. 2.1.6. Amplitude calibration accuracy of 10% was adopted for both frequencies, and we use the peak flux density from the higher-frequency image for the broadband MWL spectrum.
+The KVN regularly observes M87 at frequencies of 22, 43, 86, and 129 GHz simultaneously. We extract the core flux densities at the four frequencies and obtain light curves spanning observing periods between 2017 March and December at seven epochs listed in the file "m87_2017_radio.csv". Typical flux density uncertainties at 22-86 GHz are approximately 10%, while at 129 GHz they are estimated to be about 30%. More details are given in Sec. 2.1.5.
 
 
-**Global Millimeter VLBI Array (GMVA)**
+** KVN and VERA (KaVA) & East Asian VLBI Network (EAVN) **
+
+A joint network of the KVN and VERA has regularly been monitoring M87. In 2017, the network was expanded to the EAVN, which densely monitored M87 between 2017 March and May. In the file "m87_2017_radio.csv" we list a total of 8 KaVA and 14 EAVN observations. The data were calibrated in the standard manner of VLBI data reduction procedures. See Sec. 2.1.4 for more details. For the flux density included in the MWL spectrum we used the peak flux from a single EAVN observation closest in time to EHT observations, 1 mas circular beam, and uncertainty estimated to be roughly 10%.
+
+
+** Very Long Baseline Array (VLBA) **
+
+M87 was observed with the VLBA at central frequencies of 24 and 43 GHz on 2017 May 5 in the same manner as the long-term monitoring program of this target. Details of the data processing procedure are given in Sec. 2.1.6. Amplitude calibration accuracy of 10% was adopted for both frequencies. For the broadband MWL spectrum, we use the peak flux density from the naturally-weighted images, convolved with the 0.5 mas and 1.0 mas circular beam at 24 GHz and 43 GHz, respectively. In addition, in the file "m87_2017_radio.csv" we provide a total flux density (core plus extended jet) for each frequency measured within the VLBA field of view.
+
+
+** Global Millimeter VLBI Array (GMVA) **
 
 The GMVA observed M87 on 2017 March 30 with participation of 14 stations. Data processing and the imaging procedure are described in Sec. 2.1.7. The final image has an rms noise level of 0.5 mJy/beam. The peak flux density on the resultant image, included in the MWL spectrum, was derived using the synthesized beam of 0.243x0.066 mas. We consider an error budget of 30% for the flux estimate. 
 
 
-**Atacama Large Millimeter/submillimeter Array (ALMA)**
+** Atacama Large Millimeter/submillimeter Array (ALMA) **
 
-Phased ALMA observations at Band 6 with were conducted as part of the 2017 EHT campaign on April 5-11. Technical details and the data processing are described in Sec. 2.1.8. In the file `m87_2017_radio.csv` we list 4 Band 6 observations with the peak and total flux densities recovered using synthesized beam sizes in the range of 1.0-2.4 arcseconds. For the MWL spectrum we used the peak flux density averaged over all four observations.
-
-
-**Submillimeter Array (SMA)**
-
-M87 is included in the long-term monitoring program at the SMA. Data were primarily obtained in a compact configuration, resulting in the effective angular resolution typically around 3 arcseconds. Observations and the data processing procedure are described in Sec. 2.1.9. For the MWL spectrum we make use of the peak flux density measured from the center of the cleaned image of M87 and averaged over the 6 epochs listed in the file `m87_2017_radio.csv`.
+Phased ALMA observations at Band 6 with were conducted as part of the 2017 EHT campaign on April 5-11. Technical details and the data processing are described in Sec. 2.1.8. In the file "m87_2017_radio.csv" we list 4 Band 6 observations with the peak and total flux densities recovered using synthesized beam sizes in the range of 1.0-2.4 arcseconds. For the MWL spectrum we used the peak flux density averaged over all four observations.
 
 
-**Event Horizon Telescope (EHT)**
+** Submillimeter Array (SMA) **
+
+M87 is included in the long-term monitoring program at the SMA. Data were primarily obtained in a compact configuration, resulting in the effective angular resolution typically around 3 arcseconds. Observations and the data processing procedure are described in Sec. 2.1.9. For the MWL spectrum we make use of the peak flux density measured from the center of the cleaned image of M87 and averaged over the 6 epochs listed in the file "m87_2017_radio.csv".
+
+
+** Event Horizon Telescope (EHT) **
 
 Observations of M87 with the EHT and the data processing procedures are described in detail in the first set of M87 papers by the EHT Collaboration et al. (2019). For the MWL spectrum we make use of the estimated compact flux within a region of 60x60 microarcseconds squared (size chosen to match GMVA images). This includes all EHT-detected flux, with 30-50% estimated to be from the 43-microarcsecond ring, while the rest is outside. The details of this calculation are given in Appendix B of Paper IV by the EHT Collaboration et al. (2019).
 
 
-**Hubble Space Telescope (HST)**
+** Hubble Space Telescope (HST) **
 
-M87 was observed with the HST on 2017 April 7, 12, and 17 with the WFC3 camera in two wide bands, F275W and F606W. We used fully calibrated and dither combined images for photometry of both the core and the knot HST-1 as described in detail in Sec. 2.2.2. The resulting flux densities were corrected for the extinction according to the procedure outlined in Sec. 2.2.1. They are listed for each epoch and filter in the file `m87_2017_hst.csv`. For the MWL spectrum we used core flux densities averaged over all three epochs in each filter, and added in quadrature uncertainties from both flux density measurements and from different iterations of image decomposition.
-
-
-**Swift-UVOT**
-
-The Neil Gehrels Swift Observatory (Swift hereafter) observed M87 on numerous occasions at the time of the 2017 EHT campaign. We collected observations with the UV/Optical Telescope (UVOT) taken in three optical (v, b, u) and three UV bands (uvw1, uvm2, uvw2) between 2017 March 22 and April 20. We processed the data and performed photometry using standard procedures described in Sec. 2.2.1. In the Paper we also describe a method to estimate and subtract the contribution from the host galaxy and the outer jet. The file `m87_2017_swiftuvot.csv` contains flux densities of the core region of M87 corrected for the host galaxy contamination and extinction. We assume the extinction curve (R_V=3.1) and the extinction value, E_(B-V)=0.022, to correct for extinction values in all bands. The uncertainty in flux densities is dominated by that of the host galaxy de-composition, which is added in quadrature to the photometric uncertainty of each measurement. For the MWL spectrum we make use of values averaged over all observations taken during the campaign for each filter.
+M87 was observed with the HST on 2017 April 7, 12, and 17 with the WFC3 camera in two wide bands, F275W and F606W. We used fully calibrated and dither combined images for photometry of both the core and the knot HST-1 as described in detail in Sec. 2.2.2. The resulting flux densities were corrected for the extinction according to the procedure outlined in Sec. 2.2.1. They are listed for each epoch and filter in the file "m87_2017_hst.csv". For the MWL spectrum we used core flux densities averaged over all three epochs in each filter. Uncertainties on these flux density measurements are the photometric uncertainties and uncertainties from host galaxy modeling added in quadrature. The latter is estimated from different iterations of image decomposition.
 
 
-**Swift-XRT** 
+** Swift-UVOT **
 
-M87 was observed about two dozen times using the X-ray Telescope (XRT) onboard Swift from 2017 March 27 to April 20, with 12 observations individually listed in the file `m87_2017_swiftxrt.csv` yielding useful data. For extraction of the source spectra we used a circular source region with a diameter of 15 pixels; for the background extraction we used an annular region surrounding the source. Spectral model for the complex source was determined from modeling of Chandra and NuSTAR spectra taken during the same period, as described in Sec. 2.3.3. Further details regarding Swift-XRT data analysis are given in Sec. 2.3.4.
-
-The total flux provided in the file `m87_2017_swiftxrt.csv` represents the unabsorbed flux derived from the Swift-XRT spectral fits, while the net flux corresponds to the unabsorbed flux from core, HST-1, and the outer jet only (in both cases refering to the 2–10 keV band). Because Swift-XRT does not isolate the core emission, for the MWL spectrum in the file `m87_2017_mwl_spectrum.csv` we treat flux averaged over 3 observations taken during EHT observations as an upper limit for the core flux.
-
-The file `m87_2017_swiftxrt_data_modeling.zip` contains the following files for each of the 12 Swift-XRT observations considered in the Paper, separated into folders named according to their observation ID:
- - background spectral file, `pback.pha`
- - redistribution matrix file, `PC.rmf`
- - binned source spectral file, `pfspec.pha`
- - image (0.3-10 keV band), `pimage.img`
- - ancilliary response file, `pPC.arf`
- - background extraction region file, `ppc_back.reg`
- - source extraction region file, `ppc_src.reg`
- - unbinned source spectral file, `pspec.pha`
-All relevant files can be automatically loaded into [Xspec](https://heasarc.gsfc.nasa.gov/xanadu/xspec/) by running the script `load_swiftxrt_data_m87_2017.xcm` (included in the .zip file) within any observation folder. The script also defines the spectral model used in the Paper, determined from joint spectral analysis of Chandra and NuSTAR data (see Sec. 2.3.3).
+The Neil Gehrels Swift Observatory (Swift hereafter) observed M87 on numerous occasions at the time of the 2017 EHT campaign. We collected observations with the UV/Optical Telescope (UVOT) taken in three optical (v, b, u) and three UV bands (uvw1, uvm2, uvw2) between 2017 March 22 and April 20. We processed the data and performed photometry using standard procedures described in Sec. 2.2.1. In the Paper we also describe a method to estimate and subtract the contribution from the host galaxy and the outer jet. The file "m87_2017_swiftuvot.csv" contains flux densities of the core region of M87 corrected for the host galaxy contamination and extinction. We assume the extinction curve (R_V=3.1) and the extinction value, E_(B-V)=0.022, to correct for extinction values in all bands. The uncertainty in flux densities is dominated by that of the host galaxy de-composition, which is added in quadrature to the photometric uncertainty of each measurement. For the MWL spectrum we make use of values averaged over all observations taken during the campaign for each filter.
 
 
-**Chandra & NuSTAR**
+** Swift-XRT ** 
 
-Chandra X-ray Observatory observed M87 with the ACIS-S instrument on 2017 April 11 on 2017 April 14. Since Chandra resolves the source into multiple components, we used a non-trivial set of extraction regions for the core, HST-1 knot, the outer jet, and diffuse emission from the intra-cluster medium that are described in detail in Sec. 2.3.1. NuSTAR, which observed in coordination with both Chandra observations, does not resolve individual components; they are all included in the source extraction region with a radius of 45 arcseconds. To recover their fluxes, we performed a joint spectral analysis described in detail in Sec. 2.3.3. Specifcs of Chandra and NuSTAR data processing are given in Sec. 2.3.1 and Sec. 2.3.2, respectively.
+M87 was observed about two dozen times using the X-ray Telescope (XRT) onboard Swift from 2017 March 27 to April 20, with 12 observations individually listed in the file "m87_2017_swiftxrt.csv" yielding useful data. For extraction of the source spectra we used a circular source region with a diameter of 35 arcseconds. For the background extraction we used an annular region surrounding the target, which includes contributions from the instrumental background as well as emission from the host galaxy and the cluster it resides in. Spectral models for the complex source and background were determined from modeling of Chandra data, as described in Sec. 2.3.3. Further details regarding Swift-XRT data analysis are given in Sec. 2.3.4.
 
-TBD: Chandra and NuSTAR spectral and responses file package, including ISIS scripts... The flux densities in 20 sub-bands included in the MWL spectrum were calculated from spectral models for the M87 core drawn from the posterior distribution of spectral parameters described below.
+The total flux provided in the file "m87_2017_swiftxrt.csv" represents the unabsorbed flux derived from the Swift-XRT spectral fits, while the net flux corresponds to the unabsorbed flux from core, HST-1, and the outer jet only (in both cases refering to the 2–10 keV band). Because Swift-XRT does not isolate the core emission, for the MWL spectrum in the file "m87_2017_mwl_spectrum.csv" we treat flux averaged over 3 observations taken during EHT observations as an upper limit for the core flux.
 
-The file `m87_2017_xray_model_posteriors.fits.gz` contains the results of a Monte Carlo Markov Chain (MCMC) analysis of Chandra and NuSTAR spectra of M87 using the "isisscripts" ([ISIS](https://space.mit.edu/ASC/ISIS/)) routine "emcee". It is associated with the "m87" spectral model defined in the ISIS scripts to load the X-ray data. The model itself and its parameters are explained in more detail there and in Sec. 2.3.3. This fits file is best read using the "isisscripts" tool "read_chain"; versions after 2018-05-11 should be based on the correct file format. The file has four extensions, as follows:
+The file "m87_2017_swiftxrt_data_modeling.zip" contains the following files for each of the 12 Swift-XRT observations considered in the Paper, separated into folders named according to their observation ID:
+ - background spectral file, "pback.pha"
+ - redistribution matrix file, "PC.rmf"
+ - binned source spectral file, "pfspec.pha"
+ - image (0.3-10 keV band), "pimage.img"
+ - ancilliary response file, "pPC.arf"
+ - background extraction region file, "ppc_back.reg"
+ - source extraction region file, "ppc_src.reg"
+ - unbinned source spectral file, "pspec.pha"
+All relevant files can be automatically loaded into Xspec (https://heasarc.gsfc.nasa.gov/xanadu/xspec/) by running the script "load_swiftxrt_data_m87_2017.xcm" (included in the .zip file) within any observation folder. The script also defines the spectral model used in the Paper, determined from joint spectral analysis of Chandra and NuSTAR data (see Sec. 2.3.3).
+
+
+** Chandra & NuSTAR **
+
+The Chandra X-ray Observatory observed M87 with the ACIS-S instrument on 2017 April 11 on 2017 April 14. Since Chandra resolves the source into multiple components, we used a non-trivial set of extraction regions for the core, HST-1 knot, the outer jet, and diffuse emission from the intra-cluster medium that are described in detail in Sec. 2.3.1. NuSTAR, which observed in coordination with both Chandra observations, does not resolve individual components; they are all included in the source extraction region with a radius of 45 arcseconds. To recover their fluxes, we performed a joint spectral analysis described in detail in Sec. 2.3.3. Specifcs of Chandra and NuSTAR data processing are given in Sec. 2.3.1 and Sec. 2.3.2, respectively.
+
+The file "m87_2017_chandra_nustar_data_modeling.zip" contains all spectral and response files necessary for joint modeling of the X-ray spectrum of M87 as described in the Paper. All files can be loaded into the spectral analysis software ISIS (https://space.mit.edu/ASC/ISIS/) using the script "load_chandra+nustar_data_m87_2017.sl" provided within the same folder. A brief description of the setup is given in the comments within the script. The script automatically reads the file "m87_xray model.par" (also provided within the folder), which defines the best-fit spectral model for M87. The flux densities in 20 sub-bands included in the MWL spectrum were calculated from the spectral model for the M87 core drawn from the posterior distribution of spectral parameters described below. Also included with the data is the script "make_cash.sl" enabling the use of Cash statistics for fitting the MWL spectrum in ISIS, as described in Sec. 3.3.2.
+
+Files "m87_2017_xray_model_posteriors.zip" and "m87_2017_mwl_model_posteriors.zip" contain the results of Monte Carlo Markov Chain (MCMC) computations using the "isisscripts" routine "emcee", based on the analysis of Chandra and NuSTAR in the former case and the full MWL spectrum in the latter. These compressed fits files are best read using the "isisscripts" tool "read_chain"; versions after 2018-05-11 should be based on the correct file format. They have four extensions, as follows:
  [0] PRIMARY
- [1] PARAMETERS: The list of free parameters from the parameter file above.
- [2] MCMCCHAIN: The actual output of the emcee run, which featured 38 free parameters, 100 walkers per free parameter, and 6000 steps. This table has 40 columns and 22,800,000 rows. Each row represents a single walker at a single step, so there are N = 100*38*6000 = 22,800,00 rows. The chain for a single walker and parameter can be retrieved by taking every Nwalkers*Nparameters element (i.e., every 3800th element) of the given column. The additional two columns indicate the fit statistic for each row and whether the walker updated at that step.
+ [1] PARAMETERS: The list of free parameters of the model.
+ [2] MCMCCHAIN: The output of the emcee run: each row represents a single walker at a single step.  The chain for a single walker and parameter can be retrieved by taking every Nwalkers*Nparameters element of the given column (see below for numbers). The additional two columns indicate the fit statistic for each row and whether the walker updated at that step.
  [3] CHAINSTATS: Contains useful summary information about updates to the chains, including the fraction of walkers that update at each step as well as the min, max, and median fit statistic at each step.
+The X-ray model table has 38 free parameters, 100 walkers per free parameter, and 6000 steps. The MWL model table has 6 free parameters, 20 walkers per free parameter, and 20,000 steps.
 
 
-**Fermi-LAT**
+** Fermi-LAT **
 
-To determine the flux of M87 in sub-bands within the Fermi-LAT bandpass (100 MeV to 1 TeV), we performed a dedicated analysis of the Fermi-LAT data on M87 in three-month time bins centered on the EHT observation period (2017 March 1 to May 31). Events were extracted from a region of interest (ROI) of 20 degree radius centered on the M87 position. Fluxes are provided in 4 sub-bands logarithmically spaced in frequency, with the highest-energy band (100 Gev to 1 TeV) yielding only an upper limits at approximately 2 sigma significance (formally, TS=4). See Sec. 2.4.1 for details.
-
-
-**H.E.S.S.**
-
-The H.E.S.S. observations of M87 during the 2017 EHT campaign were performed using stereoscopic observations with the four 12-meter telescopes (CT1-4). These observations, listed individually in the file `m87_2017_vhe.csv`, total 7.9 hours of live time, reaching total detection significance of 3.7 sigma. Systematic uncertainty of the flux was adopted to be 20% based on previous observations. Fluxes and upper limits were calculated for energies above a threshold at 350 GeV assuming a differential spectrum that follows a simple power-law with a spectral index of 2.3. Upper limits on fluxes within sub-bands are given at the significance level of 2 sigma. See Sec. 2.4.2 for further details.
+To determine the flux of M87 in sub-bands within the Fermi-LAT bandpass (100 MeV to 1 TeV), we performed a dedicated analysis of the Fermi-LAT data on M87 in three-month time bins centered on the EHT observation period (2017 March 1 to May 31). Events were extracted from a region of interest (ROI) of 20 degree radius centered on the M87 position. Fluxes are provided in 4 sub-bands logarithmically spaced in frequency, with the highest-energy band (100 GeV to 1 TeV) yielding only an upper limit at approximately 2 sigma significance (formally, TS=4). See Sec. 2.4.1 for details.
 
 
-**MAGIC**
+** H.E.S.S. **
 
-MAGIC observed M87 for a total of 27.2 hours during the 2017 EHT campaign, of which 6.7 hours were in the presence of moonlight. All MAGIC observations, listed individually in the file `m87_2017_vhe.csv`, yield a total detection significance of 4.6 sigma when combined. We estimate a systematic flux normalization uncertainty of 11%, a systematic uncertainty on the energy scale of 15% and a systematic uncertainty of +/-0.15 on the reconstructed spectral slope for the MAGIC observations, which sums up to a total of 30% integrated flux uncertainty. Fluxes were calculated for energies above a threshold at 350 GeV assuming a differential spectrum that follows a simple power-law with a spectral index of 2.3. See Sec. 2.4.2 for further details.
+The H.E.S.S. observations of M87 during the 2017 EHT campaign were performed using stereoscopic observations with the four 12-meter telescopes (CT1-4). These observations, listed individually in the file "m87_2017_vhe.csv", total 7.9 hours of live time, reaching total detection significance of 3.7 sigma. Systematic uncertainty of the flux was adopted to be 20% based on previous observations. Fluxes and upper limits were calculated for energies above a threshold at 350 GeV assuming a differential spectrum that follows a simple power-law with a spectral index of 2.3. Upper limits on fluxes within sub-bands are given at the significance level of 2 sigma. See Sec. 2.4.2 for further details.
 
 
-**VERITAS**
+** MAGIC **
 
-VERITAS collected 15 hours of quality-selected observations of M87 during the 2017 EHT campaign window, with individual observations listed in the file `m87_2017_vhe.csv`. The analysis yields an overall detection significance of 3.8 sigma. Fluxes and upper limits were calculated for energies above a threshold at 350 GeV assuming a differential spectrum that follows a simple power-law with a spectral index of 2.3. Upper limits on fluxes within sub-bands are given at the significance level of 2 sigma. See Sec. 2.4.2 for further details.
+MAGIC observed M87 for a total of 27.2 hours during the 2017 EHT campaign, of which 6.7 hours were in the presence of moonlight. All MAGIC observations, listed individually in the file "m87_2017_vhe.csv", yield a total detection significance of 4.6 sigma when combined. We estimate a systematic flux normalization uncertainty of 11%, a systematic uncertainty on the energy scale of 15% and a systematic uncertainty of +/-0.15 on the reconstructed spectral slope for the MAGIC observations, which sums up to a total of 30% integrated flux uncertainty. Fluxes were calculated for energies above a threshold at 350 GeV assuming a differential spectrum that follows a simple power-law with a spectral index of 2.3. See Sec. 2.4.2 for further details.
+
+
+** VERITAS **
+
+VERITAS collected 15 hours of quality-selected observations of M87 during the 2017 EHT campaign window, with individual observations listed in the file "m87_2017_vhe.csv". The analysis yields an overall detection significance of 3.8 sigma. Fluxes and upper limits were calculated for energies above a threshold at 350 GeV assuming a differential spectrum that follows a simple power-law with a spectral index of 2.3. Upper limits on fluxes within sub-bands are given at the significance level of 2 sigma. See Sec. 2.4.2 for further details.
 
 

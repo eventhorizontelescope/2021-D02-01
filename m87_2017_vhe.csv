@@ -2,12 +2,15 @@
 # DESCRIPTION: Very high energy (VHE) gamma-ray fluxes (>350 GeV) for M87 around the EHT campaign in April 2017
 #  based on observations with H.E.S.S., MAGIC, and VERITAS. For details of the data processing and analysis methods,
 #  please see "observations_and_data_description.txt" in this data repository and the associated publication:
-#  Algaba et al. (2021), ApJL, x, y.
+#  The EHT MWL Science Working Group et al. (2021; ApJL, 911, L11).
 #
-# COLUMNS: observatory, start & stop time (MJD), exposure (h), start & stop zenith angle (deg), significance (sigma),
-#  >350 GeV flux, upper & lower flux uncertainty, flux uper limit (95% significance) (flux unit: 10^-12 ph s^-1 cm^-2)
+# COLUMNS: observatory, start time (MJD), stop time (MJD), exposure (h), start zenith angle (deg), stop zenith angle (deg),
+#  detection significance (sigma), >350 GeV flux (10^-12 ph s^-1 cm^-2), upper flux uncertainty (10^-12 ph s^-1 cm^-2),
+#  lower flux uncertainty (10^-12 ph s^-1 cm^-2), flux upper limit (95% significance; 10^-12 ph s^-1 cm^-2)
 # 
-H.E.S.S.,57840.92,57841.02,1.3,37,39,2.6,1.51,0.73,0.64,NaN
+# NOTE: Zero values for flux upper limit (column 11) mark significant detections of the source (>=2.0 sigma).
+#
+H.E.S.S.,57840.92,57841.02,1.3,37,39,2.6,1.51,0.73,0.64,0.00
 H.E.S.S.,57841.89,57842.02,1.8,36,41,0.4,0.18,0.52,0.45,1.28
 H.E.S.S.,57844.91,57845.03,2.3,36,45,1.3,0.57,0.53,0.46,1.67
 H.E.S.S.,57845.90,57846.02,2.3,36,42,1.7,0.73,0.50,0.44,1.77
@@ -27,14 +30,14 @@ MAGIC,57847.03,57847.09,1.46,16,26,0.5,0.54,0.95,0.95,3.4
 MAGIC,57848.08,57848.16,1.53,24,46,0.6,0.71,0.98,0.98,3.38
 MAGIC,57849.04,57849.16,2.49,16,45,1.2,1.27,0.89,0.89,4.46
 MAGIC,57856.91,57856.93,0.38,31,36,-1.0,-2.32,1.63,1.63,2.31
-MAGIC,57859.97,57860.09,1.78,16,33,3.0,2.52,1.15,1.15,NaN
+MAGIC,57859.97,57860.09,1.78,16,33,3.0,2.52,1.15,1.15,0.00
 MAGIC,57862.96,57863.04,1.63,16,21,0.8,0.75,0.79,0.79,2.94
 MAGIC,57863.95,57864.03,1.63,16,21,-0.6,-0.62,0.77,0.77,1.45
 # 
-VERITAS,57834.28,57834.41,2.64,20,31,3.0,1.5,0.63,0.63,NaN
+VERITAS,57834.28,57834.41,2.64,20,31,3.0,1.5,0.63,0.63,0.00
 VERITAS,57835.29,57835.33,0.62,20,21,1.3,1.1,1.00,1.00,3.8
 VERITAS,57838.26,57838.40,2.92,20,28,0.8,0.39,0.51,0.51,1.5
 VERITAS,57839.25,57839.39,2.97,20,27,0.2,0.078,0.44,0.44,1.1
-VERITAS,57846.24,57846.37,2.50,20,26,2.0,1.1,0.61,0.61,NaN
+VERITAS,57846.24,57846.37,2.50,20,26,2.0,1.1,0.61,0.61,0.00
 VERITAS,57847.32,57847.43,2.00,24,42,1.4,1,0.78	0.78,2.7
-VERITAS,57861.18,57861.26,1.32,20,27,2.0,1.6,0.96,0.96,NaN
+VERITAS,57861.18,57861.26,1.32,20,27,2.0,1.6,0.96,0.96,0.00

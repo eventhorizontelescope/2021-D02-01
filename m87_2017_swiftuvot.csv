@@ -1,11 +1,11 @@
 # 
-# DESCRIPTION: Flux densities for M87 core around the EHT campaign in April 2017
-#  based on observations with the Neil Gehrels Swift Observatory Ultraviolet and
-#  Optical Telescope (Swift-UVOT). For details of the data processing and analysis
-#  methods, please see "observations_and_data_description.txt" in this data repository
-#  and the associated publication: Algaba et al. (2021), ApJL, x, y.
+# DESCRIPTION: Flux densities for M87 core around the EHT campaign in April 2017 based
+#  on observations with the Ultraviolet and Optical Telescope on board the Neil Gehrels
+#  Swift Observatory (Swift-UVOT). For details of the data processing and analysis methods,
+#  please see "observations_and_data_description.txt" in this data repository and the
+#  associated publication: The EHT MWL Science Working Group et al. (2021; ApJL, 911, L11).
 #
-# COLUMNS: time (MJD), exposure (s), flux density & uncertainty (mJy), band
+# COLUMNS: time (MJD), exposure (s), flux density (mJy), flux density uncertainty (mJy), band
 # 
 57834.2809,83,2.23,0.62,v
 57835.2827,94,0.37,0.57,v

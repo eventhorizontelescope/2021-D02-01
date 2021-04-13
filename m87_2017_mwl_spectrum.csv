@@ -1,10 +1,12 @@
 # 
-# DESCRIPTION: Observed spectral energy distribution for M87 around the EHT campaign in April 2017.
-#  For details of the data processing and analysis methods, please see the documentation the online
-#  data repository and the associated publication: Algaba et al. (2021), ApJL, x, y.
+# DESCRIPTION: Observed spectral energy distribution for M87 around the EHT campaign in April 2017. For
+#  details of the data processing and analysis methods, please see the documentation in this online data
+#  repository and the associated publication: The EHT MWL Science Working Group et al. (2021; ApJL, 911, L11).
 #
-# COLUMNS: band minimum, center, maximum (Hz), flux density & uncertainty (Jy), dataset index
+# COLUMNS: band minimum (Hz), band center (Hz), band maximum (Hz), flux density (Jy), flux density uncertainty (Jy), dataset index
 # 
+# NOTE: Rows with zero flux density uncertainty (0.00e+00 in column 5) are upper limits.
+#
 # --- (1) EVN --------------------------------
 1.70e+09,1.70e+09,1.70e+09,7.50e-01,8.00e-02,1
 # 
@@ -27,7 +29,8 @@
 1.29e+11,1.29e+11,1.29e+11,8.30e-01,2.50e-01,5
 # 
 # --- (6) VLBA--------------------------------
-4.30e+10,4.30e+10,4.30e+10,8.42e-01,8.40e-02,6
+2.38e+10,2.38e+10,2.38e+10,1.12e+00,1.10e-01,6
+4.31e+10,4.31e+10,4.31e+10,1.09e+00,1.10e-01,6
 # 
 # --- (7) GMVA -------------------------------
 8.63e+10,8.63e+10,8.63e+10,7.30e-01,2.20e-01,7
@@ -54,7 +57,7 @@
 1.54e+15,1.55e+15,1.56e+15,0.89e-04,0.23e-04,12
 # 
 # --- (13) Swift/XRT --------------------------
-4.84e+17,1.08e+18 2.42e+18,9.99e-99,2.08e-07,13
+4.84e+17,1.08e+18 2.42e+18,2.08e-07,0.00e+00,13
 #
 # --- (14) Chandra+NuSTAR ---------------------
 9.68e+16,1.09e+17,1.24e+17,9.52e-07,8.44e-08,14
@@ -82,14 +85,14 @@
 2.42e+22,7.65e+22,2.42e+23,4.27e-12,1.32e-12,15
 2.42e+23,7.65e+23,2.42e+24,2.45e-13,9.83e-14,15
 2.42e+24,7.65e+24,2.42e+25,6.49e-14,3.87e-14,15
-2.42e+25,7.65e+25,2.42e+26,9.99e-99,6.88e-14,15
+2.42e+25,7.65e+25,2.42e+26,6.88e-14,0.00e+00,15
 # 
 # --- (16) H.E.S.S ----------------------------
-5.80e+25,7.31e+25,9.20e+25,9.99e-99,4.40e-15,16
-9.20e+25,1.16e+26,1.46e+26,9.99e-99,1.24e-15,16
-1.46e+26,1.83e+26,2.31e+26,9.99e-99,5.32e-16,16
-2.31e+26,2.91e+26,3.66e+26,9.99e-99,3.05e-16,16
-3.66e+26,4.61e+26,5.80e+26,9.99e-99,1.67e-16,16
+5.80e+25,7.31e+25,9.20e+25,4.40e-15,0.00e+00,16
+9.20e+25,1.16e+26,1.46e+26,1.24e-15,0.00e+00,16
+1.46e+26,1.83e+26,2.31e+26,5.31e-16,0.00e+00,16
+2.31e+26,2.91e+26,3.66e+26,3.05e-16,0.00e+00,16
+3.66e+26,4.61e+26,5.80e+26,1.67e-16,0.00e+00,16
 # 
 # --- (17) MAGIC ------------------------------
 3.04e+25,3.82e+25,4.81e+25,3.68e-15,2.14e-15,17
@@ -100,10 +103,9 @@
 3.04e+26,3.82e+26,4.81e+26,2.15e-16,8.63e-17,17
 # 
 # --- (18) VERITAS ----------------------------
-4.84e+25,5.73e+25,6.82e+25,9.99e-99,1.74e-14,18
-6.82e+25,8.10e+25,9.62e+25,9.99e-99,2.10e-15,18
+4.84e+25,5.73e+25,6.82e+25,1.74e-14,0.00e+00,18
+6.82e+25,8.10e+25,9.62e+25,2.10e-15,0.00e+00,18
 9.62e+25,1.14e+26,1.36e+26,6.42e-16,3.42e-16,18
 1.36e+26,1.61e+26,1.92e+26,4.02e-16,2.30e-16,18
-1.92e+26,2.28e+26,2.71e+26,9.99e-99,4.22e-16,18
-2.71e+26,3.22e+26,3.83e+26,9.99e-99,3.51e-16,18
-# 
+1.92e+26,2.28e+26,2.71e+26,4.22e-16,0.00e+00,18
+2.71e+26,3.22e+26,3.83e+26,3.51e-16,0.00e+00,18

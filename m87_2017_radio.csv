@@ -13,10 +13,13 @@
 #  - Submillimeter Array (SMA)
 #  For the description of observations the data processing and analysis methods, please see
 #  "observations_and_data_description.txt" in this data repository and the associated publication:
-#  Algaba et al. (2021), ApJL, x, y.
+#  The EHT MWL Science Working Group et al. (2021; ApJL, 911, L11).
 #
-# COLUMNS: array, observation code, time (MJD), frequency (GHz), peak flux density & uncertainty (Jy/beam),
-#  total flux density & uncertainty (Jy), circular beam size (mas)
+# COLUMNS: array, observation code, time (MJD), frequency (GHz), peak flux density (Jy/beam),
+#  peak flux density uncertainty (Jy/beam), total flux density (Jy), total flux density uncertainty (Jy),
+#  circular beam size or average of elliptical beam size axes (mas)
+# 
+# NOTE: SMA observations too short for estimates of the total flux density are marked with "NaN" below.
 # 
 EVN,eh033,57882,1.7,0.75,0.08,2.85,0.29,5.0
 # 
@@ -87,14 +90,14 @@ VLBA,bg251a,57878,43.1,1.09,0.11,1.63,0.16,0.5
 # 
 GMVA,MA009,57842,86.3,0.73,0.22,1.02,0.30,0.2
 # 
-ALMA,2016.1.01154.V,57848,221,1.28,0.13,1.54,0.15,NaN
-ALMA,2016.1.01154.V,57849,221,1.31,0.13,1.58,0.16,NaN
-ALMA,2016.1.01154.V,57853,221,1.33,0.13,1.58,0.16,NaN
-ALMA,2016.1.01154.V,57854,221,1.34,0.13,1.56,0.16,NaN
+ALMA,2016.1.01154.V,57848,221,1.28,0.13,1.54,0.15,1500
+ALMA,2016.1.01154.V,57849,221,1.31,0.13,1.58,0.16,1850
+ALMA,2016.1.01154.V,57853,221,1.33,0.13,1.58,0.16,1500
+ALMA,2016.1.01154.V,57854,221,1.34,0.13,1.56,0.16,1000
 # 
-SMA,2016B-S079,57848,220,1.28,0.13,1.60,0.16,NaN
-SMA,2016B-S079,57849,220,1.31,0.13,1.64,0.16,NaN
-SMA,2016B-S079,57853,220,1.40,0.14,1.57,0.16,NaN
-SMA,2016B-S079,57854,220,1.30,0.13,NaN,NaN,NaN
-SMA,N/A,57865,225,1.53,0.10,NaN,NaN,NaN
-SMA,2016B-A012,57868,221,1.68,0.09,NaN,NaN,NaN
+SMA,2016B-S079,57848,220,1.28,0.13,1.60,0.16,3500
+SMA,2016B-S079,57849,220,1.31,0.13,1.64,0.16,3600
+SMA,2016B-S079,57853,220,1.40,0.14,1.57,0.16,4200
+SMA,2016B-S079,57854,220,1.30,0.13,NaN,NaN,3500
+SMA,N/A,57865,225,1.53,0.10,NaN,NaN,4200
+SMA,2016B-A012,57868,221,1.68,0.09,NaN,NaN,3000
