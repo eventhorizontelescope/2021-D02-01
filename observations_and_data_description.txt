@@ -1,6 +1,6 @@
 # Broadband Multi-wavelength Observations of M87 During the 2017 Event Horizon Telescope Campaign: Description of Observations and Data Processing
 
-This document provides a brief description of the multi-wavelength (MWL) dataset presented in The EHT MWL Science Working Group et al. (2021, ApJL, 911, L11; "Paper" hereafter) and released via this repository. Only basic information regarding the data contained in this repository is provided in this document; for details please refer to the references sections of the Paper. In the text below, "MWL spectrum" refers to the file "m87_2017_mwl_spectrum.csv". Unless explicitly stated otherwise, all uncertainties are given at the significance level of 1 sigma.
+This document provides a brief description of the multi-wavelength (MWL) dataset presented in The EHT MWL Science Working Group et al. (2021, ApJL, 911, L11; "Paper" hereafter) and released via this repository. Only basic information regarding the data contained in this repository is provided in this document; for details please refer to the references sections of the Paper. In the text below, "MWL spectrum" refers to the file "m87_2017_mwl_spectrum.csv". Unless explicitly stated otherwise, all uncertainties are given at the significance level of 1 sigma. Intermediate data products of the X-ray analysis and sampled posteriors of X-ray and MWL model parameters are publicly available only in the associated CyVerse repository (DOI: 10.25739/mhh2-cw46), since the files are too large to host on GitHub.
 
 
 ** European VLBI Network (EVN) ** 
